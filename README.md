@@ -22,6 +22,51 @@ A avaliação é feita automaticamente por outro modelo de IA, garantindo uma an
 * Python
 * VScode
   
-## 📋 Inicializando a aplicação
+## 🛠️ Instalação e Configuração
 
-* [Samuel Oliveira](https://github.com/SamuelOliveira-M)* - *Desenvolvedor*
+Siga os passos abaixo para baixar, instalar e rodar a aplicação localmente.
+
+### 1️⃣ Clonar o Repositório
+
+git clone https://github.com/SamuelOliveira-M/LLM-Compare.git
+cd LLM-Compare
+
+2️⃣ Criar e Configurar o Ambiente Virtual (Opcional, mas Recomendado)
+
+Se estiver usando Python, crie um ambiente virtual para evitar conflitos de dependências:
+
+python -m venv venv
+
+Ative o ambiente virtual:
+
+    No Windows:
+
+venv\Scripts\activate
+
+No Linux/macOS:
+
+    source venv/bin/activate
+
+### 3️⃣ Instalar as Dependências
+
+Para instalar as bibliotecas necessárias, rode:
+
+* pip install -r requirements.txt
+
+### 4️⃣ Configurar as Credenciais das APIs
+
+O projeto utiliza diferentes LLMs, então é necessário criar um arquivo .env com suas chaves de API.
+
+Crie um arquivo chamado .env na raiz do projeto e adicione as credenciais :
+
+```
+
+```
+Adicione o codigo acima dentro do arquivo .env
+
+### 5️⃣ Executar a Aplicação
+
+* python app.py
+
+
+OBS: As variáveis ANTHROPIC, GEMINI_KEY e MISTRAL_API_KEY irar funcionar até o dia 21 de fevereiro de 2025.
