@@ -8,9 +8,9 @@ O LLM Compare é uma aplicação que acessa e compara respostas geradas por pelo
 
 As respostas dos modelos são analisadas com base em três critérios principais:
 
-1️⃣ Precisão da Informação – A resposta apresenta informações corretas e sem erros? Há omissões ou inconsistências?
-2️⃣ Clareza e Coerência – A resposta é direta, compreensível e bem estruturada?
-3️⃣ Criatividade ou Profundidade – A resposta adiciona contexto interessante, curiosidades ou explicações adicionais que enriquecem a resposta?
+* 1️⃣ Precisão da Informação – A resposta apresenta informações corretas e sem erros? Há omissões ou inconsistências? 
+* 2️⃣ Clareza e Coerência – A resposta é direta, compreensível e bem estruturada?
+* 3️⃣ Criatividade ou Profundidade – A resposta adiciona contexto interessante, curiosidades ou explicações adicionais que enriquecem a resposta?
 
 Cada critério recebe uma nota de 0 a 10, e o modelo com a maior média de pontuação é destacado como o melhor para aquela pergunta específica.
 
