@@ -25,6 +25,8 @@ A avaliação é feita automaticamente por outro modelo de IA, garantindo uma an
 
 Siga os passos abaixo para baixar, instalar e rodar a aplicação localmente.
 
+OBS: Certifique-se de ter o python 3 e o vscode istalados na sua maquina.  
+
 ### 1️⃣ Clonar o Repositório
 
 git clone https://github.com/SamuelOliveira-M/LLM-Compare.git
@@ -34,7 +36,7 @@ cd LLM-Compare
 
 Se estiver usando Python, crie um ambiente virtual para evitar conflitos de dependências:
 
-python -m venv venv
+    python3 -m venv venv
 
 Ative o ambiente virtual:
 
