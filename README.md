@@ -51,7 +51,13 @@ No Linux/macOS:
 
 Para instalar as bibliotecas necessárias, rode:
 
-* pip install -r requirements.txt
+    pip install dotenv
+
+    pip install anthropic
+
+    pip install google-generativeai
+
+    pip install Mistral
 
 ### 4️⃣ Configurar as Credenciais das APIs
 
