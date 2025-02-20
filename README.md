@@ -68,18 +68,22 @@ Para instalar as bibliotecas necessárias, rode:
 
 ### 4️⃣ Configurar as Credenciais das APIs
 
-O projeto utiliza diferentes LLMs, então é necessário criar um arquivo .env com suas chaves de API.
+O projeto utiliza diferentes LLMs, portanto, é necessário criar um arquivo .env com as chaves de API.
 
-Crie um arquivo chamado .env na raiz do projeto e adicione as credenciais :
+  1 - Crie um arquivo chamado .env na raiz do projeto.
+    
+  2- Adicione as seguintes credenciais:
 
-```
+    ANTHROPIC=
+    GEMINI_KEY=
+    MISTRAL_API_KEY=
 
-```
-Adicione o codigo acima dentro do arquivo .env
+Os valores dessas variáveis estão no arquivo variaveis.txt. Copie e cole os valores correspondentes no arquivo .env que você criou.
+
 
 ### 5️⃣ Executar a Aplicação
 
 * python app.py
 
 
-OBS: As variáveis ANTHROPIC, GEMINI_KEY e MISTRAL_API_KEY irar funcionar até o dia 21 de fevereiro de 2025.
+##OBS: As variáveis ANTHROPIC, GEMINI_KEY e MISTRAL_API_KEY irar funcionar até o dia 21 de fevereiro de 2025.
