@@ -1,4 +1,3 @@
-🚀 Experimente e descubra qual LLM entrega as melhores respostas para suas perguntas!
 # LLM-Compare
 
 ## Introdução ao Projeto:
@@ -17,12 +16,12 @@ Cada critério recebe uma nota de 0 a 10, e o modelo com a maior média de pontu
 A avaliação é feita automaticamente por outro modelo de IA, garantindo uma análise imparcial entre as respostas dos concorrentes.
 
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 * Python
 * VScode
   
-## 🛠️ Instalação e Configuração
+## Instalação e Configuração
 
 Siga os passos abaixo para baixar, instalar e rodar a aplicação localmente.
 
