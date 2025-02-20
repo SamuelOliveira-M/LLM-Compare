@@ -29,8 +29,11 @@ OBS: Certifique-se de ter o python 3 e o vscode istalados na sua maquina.
 
 ### 1️⃣ Clonar o Repositório
 
-git clone https://github.com/SamuelOliveira-M/LLM-Compare.git
-cd LLM-Compare
+Usando o terminal execute os comandos abaixo: 
+
+    git clone https://github.com/SamuelOliveira-M/LLM-Compare.git
+
+    cd LLM-Compare
 
 ### 2️⃣ Criar e Configurar o Ambiente Virtual (Opcional, mas Recomendado)
 
