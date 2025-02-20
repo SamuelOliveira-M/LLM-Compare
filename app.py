@@ -78,11 +78,11 @@ def main(pergunta):
     ranking_geral = gemini_service.gerar_resposta(ranking_prompt)
 
     print(f"""
-    --------------------------------
-   RANKING DA PERGUNTA: {pergunta}
-    --------------------------------
-    {ranking_geral}
-    \n
+------------------------------------------------------------------
+RANKING DA PERGUNTA: {pergunta}
+------------------------------------------------------------------
+{ranking_geral}
+\n
     """)
 
     
@@ -90,10 +90,10 @@ def main(pergunta):
 if __name__ == "__main__":
     
     perguntas = [
-        "Quantos planetas existem no nosso sistema solar?",
+        "Como funciona o processo de fotossíntese nas plantas?",
         "Quem foi Albert Einstein?",
         "Explique a teoria da relatividade de forma simples.",
-        "Qual é a diferença entre machine learning e deep learning?"
+        "Quantos planetas existem no nosso sistema solar?"
     ]
     
     for pergunta in perguntas:

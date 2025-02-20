@@ -1,4 +1,3 @@
-# src/services/openai_service.py
 from src.interface.ia_services import IAService
 from mistralai import Mistral
 
@@ -19,6 +18,6 @@ class MistralService(IAService):
         )
 
         if response:
-            return response.choices[0].message.content # Pega o primeiro item da lista
+            return response.choices[0].message.content
         
         return "Erro: resposta vazia da API."
