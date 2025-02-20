@@ -43,11 +43,11 @@ Se estiver usando Python, crie um ambiente virtual para evitar conflitos de depe
 
 Ative o ambiente virtual:
 
-    No Windows:
+  No Windows:
 
-venv\Scripts\activate
+    venv\Scripts\activate
 
-No Linux/macOS:
+  No Linux/macOS:
 
     source venv/bin/activate
 
