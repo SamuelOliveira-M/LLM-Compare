@@ -31,7 +31,7 @@ Siga os passos abaixo para baixar, instalar e rodar a aplicação localmente.
 git clone https://github.com/SamuelOliveira-M/LLM-Compare.git
 cd LLM-Compare
 
-2️⃣ Criar e Configurar o Ambiente Virtual (Opcional, mas Recomendado)
+### 2️⃣ Criar e Configurar o Ambiente Virtual (Opcional, mas Recomendado)
 
 Se estiver usando Python, crie um ambiente virtual para evitar conflitos de dependências:
 
@@ -58,6 +58,9 @@ Para instalar as bibliotecas necessárias, rode:
     pip install google-generativeai
 
     pip install Mistral
+
+    pip install mistralai
+
 
 ### 4️⃣ Configurar as Credenciais das APIs
 
