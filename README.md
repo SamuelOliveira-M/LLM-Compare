@@ -78,7 +78,10 @@ O projeto utiliza diferentes LLMs, portanto, é necessário criar um arquivo .en
     GEMINI_KEY=
     MISTRAL_API_KEY=
 
-Os valores dessas variáveis estão no arquivo variaveis.txt. Copie e cole os valores correspondentes no arquivo .env que você criou.
+Os valores dessas variáveis você criarar nas seguintes plataformas: 
+Mistral: https://console.mistral.ai/api-keys
+Gamini_key: https://aistudio.google.com/apikey
+Anthropic: https://console.anthropic.com/settings/keys 
 
 
 ### 5️⃣ Executar a Aplicação
